@@ -101,13 +101,13 @@
 
     {{ $archive_text := $st.Params.content.archive.text | default (i18n $i18n) | default "See all" }}
 
-    <div class="see-all">
-      <a href="{{ $archive_link }}">
+{{/*  <div class="see-all">
+     <a href="{{ $archive_link }}">
         {{ $archive_text | emojify }}
 
         <i class="fas fa-angle-right"></i>
       </a>
-    </div>
+    </div>*/}}
   {{ end }}
 
 </div>
