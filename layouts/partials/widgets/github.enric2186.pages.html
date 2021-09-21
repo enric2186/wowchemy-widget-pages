@@ -85,6 +85,7 @@
     {{ else }}
       {{ partial "li_compact" . }}
     {{ end }}
+  <hr>
   {{end}}
 
   {{/* Archive link */}}
@@ -103,7 +104,7 @@
     <div class="see-all">
       <a href="{{ $archive_link }}">
         {{ $archive_text | emojify }}
-    <hr>
+
         <i class="fas fa-angle-right"></i>
       </a>
     </div>
